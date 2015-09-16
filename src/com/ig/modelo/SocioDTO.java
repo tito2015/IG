@@ -8,7 +8,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
 
-import org.hibernate.annotations.Cascade;
+
 
 @Entity
 @Table(name = "socio")
