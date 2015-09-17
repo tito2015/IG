@@ -27,7 +27,7 @@ public interface SocioDAO {
 	 * @param nombreNuevo (El nuevo nombre que queremos)
 	 */
 	
-	public void modificarSocio(int id,String nombreNuevo);
+	public void modificarSocio(int id,SocioDTO socio);
 
 	
 	/**
@@ -36,7 +36,7 @@ public interface SocioDAO {
 	 */
 	public void cargarSocio(SocioDTO socio);
 	
-	
+	public SocioDTO buscarSocio(int id);
 	
 	
 	/*
