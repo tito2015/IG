@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.Table;
-
+//Probando trabajo en equipo
 //Que sea reconocido por hibernate como una entidad
 @Entity
 // Va a representar una tabla con nombre 'persona'
